@@ -1,5 +1,103 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+html {
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+/* header rules */
+.header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid grey;
+  background-color: white;
+}
+
+.header-top {
+  height: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top-left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.header-top .header-top-left img {
+  height: 70%;
+  margin: 10px;
+}
+
+.terms {
+  color: RGB(95, 99, 104);
+  font-size: 2em;
+}
+
+.header-top-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-top-right i {
+  color: black;
+  font-size: 1.5em;
+  margin-right: 2em;
+}
+
+.header-bottom {
+  height: 45%;
+  width: 100%;
+}
+
+.header-bottom ul {
+  list-style: none;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.header-bottom ul li {
+  margin-right: 20px;
+  padding-bottom: 0.8em;
+}
+
+.header-bottom ul li:hover,
+.header-bottom ul li:active,
+.header-bottom ul li .active {
+  border-bottom: 3px solid RGB(57, 104, 214);
+}
+
+.header-bottom ul li:hover a {
+  color: RGB(57, 104, 214);
+}
+
+.header-bottom ul li a {
+  color: RGB(95, 99, 104);
+  text-decoration: none;
+}
+
+/* main rules */
+body {
+  width: 100%;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10em 0;
+}
+
+p {
+  padding: 1em 0;
+  line-height: 1.5em;
+}
+
+/* footer rules */
