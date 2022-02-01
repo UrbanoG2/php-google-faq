@@ -68,7 +68,7 @@
             </div>
 
             <div class="header-top-right">
-                <i class="fas fa-th"></i>
+                <i class="fas fa-bars"></i>
             </div>
         </div>
 
@@ -78,7 +78,7 @@
                 <li><a href="#">Norme sulla Privacy</a></li>
                 <li><a href="#">Termini di Servizio</a></li>
                 <li><a href="#">Tecnologie</a></li>
-                <li class="active" ><a href="#">Domande frequenti</a></li>
+                <li class="active"  ><a href="#">Domande frequenti</a></li>
             </ul>
         </div>
     </div>
@@ -93,7 +93,35 @@
     </div>
 
     <div class="footer">
-        FOOTER
+        <div class="footer-container">
+            <div class="links">
+                <ul>
+                    <li><a href="#">Google •</a></li>
+                    <li><a href="#">Tutto su Google •</a></li>
+                    <li><a href="#">Privacy •</a></li>
+                    <li><a href="#">Termini •</a></li>
+                </ul>
+            </div>
+
+            <div class="language">
+                <i class="fas fa-globe"></i>
+                <select name="language" id="language">
+                    <option value="" selected disabled hidden>Terlizzese</option>
+                    <option value="Denmark">Dansk</option>
+                    <option value="German">Deutsch</option>
+                    <option value="English">English</option>
+                    <option value="Spain">Espanol</option>
+                    <option value="France">Francais</option>
+                    <option value="Italy">Italiano</option>
+                    <option value="Norway">Norsk</option>
+                    <option value="Poland">Polski</option>
+                    <option value="Brazil">Portugues (Brazil)</option>
+                    <option value="Portugal">Portugues (Portugal)</option>
+                    <option value="Sweden">Svenska</option>
+                    <option value="Trrezz">Terlizzese</option>
+                </select>
+            </div>
+        </div>
     </div>
     
 </body>

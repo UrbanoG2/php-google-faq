@@ -70,8 +70,7 @@ html {
 }
 
 .header-bottom ul li:hover,
-.header-bottom ul li:active,
-.header-bottom ul li .active {
+.header-bottom ul li:active {
   border-bottom: 3px solid RGB(57, 104, 214);
 }
 
@@ -92,7 +91,7 @@ body {
 .container {
   width: 60%;
   margin: 0 auto;
-  padding: 10em 0;
+  padding-top: 10em;
 }
 
 p {
@@ -101,3 +100,45 @@ p {
 }
 
 /* footer rules */
+
+.footer {
+  width: 100%;
+  border-top: 1px solid grey;
+  display: flex;
+}
+
+.footer-container {
+  width: 60%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  padding: 1.5em 0;
+}
+
+.links ul li {
+  margin-right: 3px;
+}
+
+.links ul li a {
+  font-size: 0.7em;
+  text-decoration: none;
+  color: rgb(133, 133, 133);
+}
+
+.language {
+  display: flex;
+  align-items: center;
+}
+
+.language i {
+  color: RGB(57, 104, 214);
+  margin-right: 10px;
+  margin-top: 1px;
+}
