@@ -86,8 +86,8 @@
     <div class="container">
         <?php 
             foreach ($datas as $key => $data) {
-                echo "<h2>" . $data["question"] . "</h2>" . "<br>";
-                echo "<p>" . $data["answer"] . "</p>" . "<br>";
+                echo "<h2>" . $data["question"] . "</h2>";
+                echo "<p>" . $data["answer"] . "</p>";
             }
         ?>   
     </div>
